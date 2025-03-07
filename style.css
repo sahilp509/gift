@@ -1,6 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 
+body {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  background-size: cover;
+  background-position: center;
+}
+
+
+.paper {
+  max-width: 90vw; 
+  max-height: 90vh; 
+  padding: 10px 20px; 
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  position: absolute;
+  word-wrap: break-word;
+}
+
+/ {* Make text elements more readable on small screens */
+.paper p
+  font-size: 14px; 
+  text-align: center;
+}
+
+
+.paper.heart {
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+
+.paper img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 
 body {
