@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 
+img {
+    max-width: 100%;  /* Makes the image responsive */
+    height: auto;     /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto;   /* Centers the image */
+}
+
 @media screen and (max-width: 768px) {
-    body {
-        background-size: cover; /* Adjusts for mobile */
-        background-position: top center; /* Ensures visibility */
+    img {
+        width: 80%; /* Reduce size on smaller screens */
     }
 }
-
-img {
-    max-width: 100%; /* Ensures images are responsive */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Avoids extra spacing */
-    margin: 0 auto; /* Centers images */
-}
-
 body {
   height: 100vh; 
   display: flex;
