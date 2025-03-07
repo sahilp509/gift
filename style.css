@@ -8,6 +8,12 @@
     }
 }
 
+img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Avoids extra spacing */
+    margin: 0 auto; /* Centers images */
+}
 
 body {
   height: 100vh; 
