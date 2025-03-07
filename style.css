@@ -1,61 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 
-img {
-    max-width: 100%;  /* Makes the image responsive */
-    height: auto;     /* Maintains aspect ratio */
-    display: block;
-    margin: 0 auto;   /* Centers the image */
-}
-
-@media screen and (max-width: 768px) {
-    img {
-        width: 80%; /* Reduce size on smaller screens */
-    }
-}
-body {
-  height: 100vh; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden; 
-  background-size: cover;
-  background-position: center;
-}
-
-
-.paper {
-  max-width: 90vw; 
-  max-height: 90vh; 
-  padding: 10px 20px; 
-  transform: rotateZ(-5deg);
-  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
-  position: absolute;
-  word-wrap: break-word;
-}
-
-
-.paper p {
-  font-size: 14px; 
-  text-align: center;
-}
-
-
-.paper.heart {
-  width: 150px;
-  height: 150px;
-  padding: 0;
-  border-radius: 50%;
-}
-
-
-.paper img {
-  max-width: 100%;
-  height: auto;
-}
-
-
 
 
 body {
@@ -64,19 +9,16 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-size: 1000px;
+  background-size: 9000px; height: 2000px; width: 900px;
   background-image: url("https://www.psdgraphics.com/wp-content/uploads/2022/01/white-math-paper-texture.jpg");
   background-position: center center;
 }
-
 .paper {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
-  background-size: cover;
+  background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
-  background-repeat: no-repeat;
 /*  min-width: 800px; */
-  
   
   transform: rotateZ(-5deg);
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
@@ -84,7 +26,7 @@ body {
   position: absolute;
 }
 
-.paper.heart {
+.paper.heart. {
   position: relative;
   justify-content: center;
   width: 200px;
